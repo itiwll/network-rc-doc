@@ -1,0 +1,20 @@
+{
+  "name": "network-rc-doc",
+  "version": "1.0.0",
+  "description": "Network RC 使用文档",
+  "main": "index.js",
+  "repository": "https://github.com/itiwll/network-rc-doc",
+  "author": "Eson Wong <itiwll@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "@vuepress/plugin-google-analytics": "^1.8.2",
+    "@vuepress/shared-utils": "^1.8.2",
+    "vuepress": "^1.8.2"
+  }
+}

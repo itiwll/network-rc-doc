@@ -48,16 +48,28 @@ export default defineUserConfig<DefaultThemeOptions>({
 
   themeConfig: {
     logo: '/logo-256.png',
-    repo: 'itiwll/network-rc-doc',
-
+    repo: 'itiwll/network-rc',
+    docsRepo: 'itiwll/network-rc-doc',
     navbar: [
       {
         text: '主页',
         link: '/',
       },
       {
+        text: '制作教程',
+        link: '/guide',
+      },
+      {
+        text: '材料清单',
+        link: '/bill-of-materials',
+      },
+      {
         text: '更新记录',
         link: '/change',
+      },
+      {
+        text: '下载地址',
+        link: 'https://network-rc.esonwong.com/download/',
       },
       {
         text: '捐赠',

@@ -8,6 +8,8 @@ export default defineUserConfig<DefaultThemeOptions>({
 
   title: "Network RC",
 
+  description: "Network RC 是运行在树莓派和浏览器上的网络遥控车软件",
+
   base: '/',
 
   head: [
@@ -46,22 +48,32 @@ export default defineUserConfig<DefaultThemeOptions>({
 
   themeConfig: {
     logo: '/logo-256.png',
+    repo: 'itiwll/network-rc-doc',
 
-    repo: 'itiwll/network-rc',
-
-    docsDir: 'docs',
-
-
+    navbar: [
+      {
+        text: '主页',
+        link: '/',
+      },
+      {
+        text: '更新记录',
+        link: '/change',
+      },
+      {
+        text: '捐赠',
+        link: 'https://blog.esonwong.com/donate/',
+      },
+    ]
   },
 
   plugins: [
-    [
-      '@vuepress/plugin-google-analytics',
-      {
-        // we have multiple deployments, which would use different id
-        id: process.env.DOCS_GA_ID,
-      },
-    ],
+    // [
+    //   '@vuepress/plugin-google-analytics',
+    //   {
+    //     // we have multiple deployments, which would use different id
+    //     id: process.env.DOCS_GA_ID,
+    //   },
+    // ],
     //   ['@vuepress/plugin-pwa'],
     //   [
     //     '@vuepress/plugin-pwa-popup',

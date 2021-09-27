@@ -69,7 +69,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
       {
         text: '下载地址',
-        link: 'https://network-rc.esonwong.com/download/',
+        link: 'https://download.esonwong.com/network-rc/',
       },
       {
         text: '捐赠',

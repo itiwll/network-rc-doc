@@ -79,16 +79,11 @@ export default defineUserConfig<DefaultThemeOptions>({
   },
 
   plugins: [
-    // [
-    //   '@vuepress/plugin-google-analytics',
-    //   {
-    //     // we have multiple deployments, which would use different id
-    //     id: process.env.DOCS_GA_ID,
-    //   },
-    // ],
-    //   ['@vuepress/plugin-pwa'],
-    //   [
-    //     '@vuepress/plugin-pwa-popup',
-    //   ],
+    [
+      '@vuepress/plugin-google-analytics',
+      {
+        id: 'G-JPM3HHBC6D',
+      },
+    ],
   ],
 })

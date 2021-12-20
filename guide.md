@@ -37,23 +37,39 @@
 1. 在终端输入 Network RC 安装命令，回车执行：
 
    ```bash
-   bash <(curl -sL https://download.esonwong.com/network-rc/install.sh)
+   bash <(curl -sL https://download.esonwong.com/network-rc/install-beta.sh)
    ```
 
    ![安装 Network RC](./assets/install-network-rc.png)
 
 2. 输入`yes`并回车，使用默认设置来安装
+
+   ![默认安装](./assets/default-install.png)
+
 3. 回车，使用随机访问端口
+   
+   ![设置 remote port](./assets/set-remote-port.png)
+
 4. 设置**登录密码**，回车确认
 
+   ![设置密码](./assets/set-password.png)
+
+
+5. 输入`ok`并回车开始下载和安装 Network RC
+   
    ![Network RC 安装确认](./assets/install-network-rc-confirm.png)
 
-5. 记录你的**控制界面登陆地址**和**登录密码**
-6. 输入`ok`并回车开始下载和安装 Network RC
+
+6. 等待安装完成
+   ![完成安装](./assets/install-complete.png)
+
 
 安装完成后通过其他设备的浏览器即可打开**控制界面登陆地址**, 使用设置的**登录密码**登录。
+![登录 Network RC 的控制界面](./assets/network-rc-login.png)
 
-<!-- ![登录 Network RC 的控制界面](./assets/network-rc-login.png) -->
+登录后：
+
+![控制界面](./assets/ui-controller.png)
 
 ## 连接树莓派和舵机
 

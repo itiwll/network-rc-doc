@@ -29,4 +29,4 @@ footer: MIT Licensed | Copyright © 2020-present Eson Wong
 ---
 
 
-![控制端](/ui-desktop.png)
+![控制端](./assets/ui-controller.png)

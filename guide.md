@@ -9,6 +9,8 @@
 
 [树莓派4B【RaspBerry Pi 4 Model B】系统安装及配置教程](http://article.docway.net/it/details/606bfa970a6c642cafe259fc)
 
+> Network RC 仅支持 buster 系统。比如：[2021-12-02-raspios-buster-armhf.zip](https://downloads.raspberrypi.org/raspios_oldstable_armhf/images/raspios_oldstable_armhf-2021-12-02/2021-12-02-raspios-buster-armhf.zip)
+
 ### 打开摄像头
 
 系统安装完成后使用 SSH 连接到树莓派命令行终端。如果连接显示器，则打开命令行终端。

@@ -1,4 +1,3 @@
-
 # 制作教程
 
 ## 树莓派上安装 Network RC
@@ -7,7 +6,7 @@
 
 根据这篇教程的“方法二”安装树莓派系统，并启用 SSH， 连接到 WiFi。
 
-[树莓派4B【RaspBerry Pi 4 Model B】系统安装及配置教程](http://article.docway.net/it/details/606bfa970a6c642cafe259fc)
+[树莓派 4B【RaspBerry Pi 4 Model B】系统安装及配置教程](http://article.docway.net/it/details/606bfa970a6c642cafe259fc)
 
 > Network RC 仅支持 buster 系统。比如：[2021-12-02-raspios-buster-armhf.zip](https://downloads.raspberrypi.org/raspios_oldstable_armhf/images/raspios_oldstable_armhf-2021-12-02/2021-12-02-raspios-buster-armhf.zip)
 
@@ -47,22 +46,19 @@
    ![默认安装](./assets/default-install.png)
 
 3. 回车，使用随机访问端口
-   
+
    ![设置 remote port](./assets/set-remote-port.png)
 
 4. 设置**登录密码**，回车确认
 
    ![设置密码](./assets/set-password.png)
 
-
 5. 输入`ok`并回车开始下载和安装 Network RC
-   
-   ![Network RC 安装确认](./assets/install-network-rc-confirm.png)
 
+   ![Network RC 安装确认](./assets/install-network-rc-confirm.png)
 
 6. 等待安装完成
    ![完成安装](./assets/install-complete.png)
-
 
 安装完成后通过其他设备的浏览器即可打开**控制界面登陆地址**, 使用设置的**登录密码**登录。
 ![登录 Network RC 的控制界面](./assets/network-rc-login.png)
@@ -85,7 +81,7 @@
 
 1. 将舵机和电调的正极线(VCC\红色) 和 电调的正极线用公对公杜邦线连接起来，舵机从电调上取电。
 
-   > ⚠️注意：舵机红色电源输出线不要直接连接树莓派，会导致树莓派烧毁。
+   > ⚠️ 注意：舵机红色电源输出线不要直接连接树莓派，会导致树莓派烧毁。
 
 1. 使用公对母杜邦线将电调的信号线(PWM\白色或黄色) 连接到树莓派的 GPIO 13 (编号 33\PWM1)
 1. 使用公对母杜邦线将电调的地线(Ground\黑色或棕色) 连接到树莓派的 GPIO Group，建议连接到编号 30 和 34，方便理线。
@@ -111,7 +107,9 @@
 
 ### 云台
 
-待更新
+摄像头可装在云台上增加视野。下面是默认设置的 2 轴云台的接线方法。
+
+![连接树莓派和舵机](./assets/gpio-2.jpg)
 
 ### 供电保障
 

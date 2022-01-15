@@ -36,7 +36,7 @@
 1. 在终端输入 Network RC 安装命令，回车执行：
 
    ```bash
-   bash <(curl -sL https://download.esonwong.com/network-rc/install-beta.sh)
+   bash <(curl -sL https://download.esonwong.com/network-rc/install.sh)
    ```
 
    ![安装 Network RC](./assets/install-network-rc.png)

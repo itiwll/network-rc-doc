@@ -1,5 +1,14 @@
 # 更新记录
 
+## v2.5.7
+
+- 修复断开连接会导致程序崩溃的 bug
+- 修复使自定义 frpc 配置文件不可用的 bug
+- 修复通道内存溢出导致程序崩溃的 bug
+- 添加日志系统
+  - 日志文件路径 `/home/pi/.network-rc/logs/`
+  - 查看实时日志 `tail -n 100 -f ~/.network-rc/logs/all.log`
+
 ## v2.5.3
 
 - 默认 frp 服务使用子域名

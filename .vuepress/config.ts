@@ -68,6 +68,10 @@ export default defineUserConfig<DefaultThemeOptions>({
         link: '/change',
       },
       {
+        text: '常见问题',
+        link: '/faq',
+      },
+      {
         text: '下载地址',
         link: 'https://download.esonwong.com/network-rc/',
       },

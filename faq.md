@@ -16,3 +16,57 @@
 - 中速闪烁：Network RC 已网络穿透成功
 - 快速闪烁：Network RC 运行错误或者网络穿透失败
 - 长亮状态：控制端已打开
+
+## 蓝牙音响没用我该怎么做？
+
+- 不要打开树莓派系统的桌面或者 VNC。
+- 使用命令行连接蓝牙音响
+
+  1.  打开蓝牙控制程序
+
+      ```bash
+      bash sudo bluetoothctl
+      default-agent
+      ```
+
+  2.  打开蓝牙音响配对模式
+  3.  搜索蓝牙音响
+
+      ```bash
+      scan on
+      ```
+
+  4.  找到蓝牙音响的 MAC 地址，然后停止搜索
+
+      ```bash
+      scan off
+      ```
+
+  5.  信任蓝牙音响
+
+      ```bash
+      trust XX:XX:XX:XX:XX:XX
+      ```
+
+  6.  配对蓝牙音响
+
+      ```bash
+      pair XX:XX:XX:XX:XX:XX
+      ```
+
+  7.  连接蓝牙音响
+
+      ```bash
+      connect XX:XX:XX:XX:XX:XX
+      ```
+
+  8.  退出蓝牙控制程序
+      ```bash
+      exit
+      ```
+  9.  重启树莓派
+      ```bash
+      reboot
+      ```
+
+- 先开树莓派控制界面，再打开蓝牙音响电源。

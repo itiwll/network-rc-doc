@@ -70,3 +70,18 @@
       ```
 
 - 先开树莓派控制界面，再打开蓝牙音响电源。
+
+## 怎么安装旧版本的 Network RC？
+
+> ⚠️ 注意：太旧版本的 Network RC 不支持一键安装
+
+查看版本列表 <https://download.esonwong.com/network-rc/> ，找到版本表标识，`x.y.z` 或 `vx.y.z`。
+
+```shell
+NETWORK_RC_VERSION=2.5.9 bash <(curl -sL https://download.esonwong.com/network-rc/install.sh)
+
+# or
+
+NETWORK_RC_VERSION=v2.5.12 bash <(curl -sL https://download.esonwong.com/network-rc/install.sh)
+
+```

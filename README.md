@@ -30,4 +30,12 @@ footer: MIT Licensed | Copyright © 2020-present Eson Wong
 
 <iframe src="//player.bilibili.com/player.html?bvid=BV1p5411f7en&page=1&high_quality=1&as_wide=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"  style="width: 100%; height: 640px;"> </iframe>
 
+### 社区
+
+<img src="./assets/community.jpg" style="width:280px" alt="Network RC 社群" />
+
+### 微信群
+
+<img src="./assets/wechat-group.jpg" style="width:280px" alt="Network RC 微信群" />
+
 <!-- ![控制端](./assets/ui-controller.png) -->

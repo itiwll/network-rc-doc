@@ -4,7 +4,7 @@ title: Network RC
 heroText: Network RC
 heroAlt: Network RC
 heroImage: /logo-256.png
-description: Network RC 是运行在树莓派和浏览器上的网络遥控车软件。
+description: Network RC 是运行在树莓派和浏览器上用于制作网络遥控车的软件。
 actions:
   - text: 制作教程
     link: /guide/

@@ -26,7 +26,7 @@
   1.  打开蓝牙控制程序
 
       ```bash
-      bash sudo bluetoothctl
+      sudo bluetoothctl
       default-agent
       ```
 

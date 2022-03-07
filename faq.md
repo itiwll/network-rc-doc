@@ -86,3 +86,9 @@ NETWORK_RC_VERSION=2.5.9 bash <(curl -sL https://download.esonwong.com/network-r
 NETWORK_RC_VERSION=v2.5.12 bash <(curl -sL https://download.esonwong.com/network-rc/install.sh)
 
 ```
+
+## 怎么安装 beta 版本？
+
+```shell
+NETWORK_RC_BETA=1 bash <(curl -sL https://download.esonwong.com/network-rc/install.sh)
+```

@@ -1,6 +1,29 @@
 # 更新记录
 
-## 2.5.12
+## v2.6.6
+
+- 🆕 支持 Network RC 龙圈风扩展板（开发中）的电压显示
+- 🆕 添加状态信息显示接口和状态信息显示界面
+
+  ```bash
+  curl -H "Content-Type: application/json" -X POST \
+       -d '{"label": "电压", "value": "12v"}' \
+       http://127.0.0.1:8080/api/status-info
+  ```
+
+- 🆕 添加 GPS 接口 和地图
+
+  ```bash
+  curl -H "Content-Type: application/json" -X POST \
+       -d '{"label": "gps", "lat": 32, "lng": 101.2}' \
+       http://127.0.0.1:8080/api/status-info
+  ```
+
+- 🆕 安装脚本对树莓派系统版本检查
+- 🆕 安装脚本对依赖包安装检查
+- 🆕 安装脚本对 Network RC 下载结果检查
+
+## v2.5.12
 
 - 修复触控 UI 操作偶发的丢失指令的问题
 - 修复某些情况下控制界面摄像头画面不动
@@ -8,7 +31,7 @@
 - 一键安装指令支持指定版本
   - <https://network-rc.esonwong.com/faq.html#怎么安装旧版本的-network-rc>
 
-## 2.5.10
+## v2.5.10
 
 - 树莓派 Act Led 灯指示 Network RC 运行状态
   - 慢速闪烁：Network RC 已启动

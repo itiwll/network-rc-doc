@@ -92,3 +92,9 @@ NETWORK_RC_VERSION=v2.5.12 bash <(curl -sL https://download.esonwong.com/network
 ```shell
 NETWORK_RC_BETA=1 bash <(curl -sL https://download.esonwong.com/network-rc/install.sh)
 ```
+
+## 怎么查看日志?
+
+```shell
+tail -n 100 -f ~/.network-rc/logs/all.log
+```
